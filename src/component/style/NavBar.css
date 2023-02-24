@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+.navbar{
+    background: #8568FF;
+    /* width: 100%; */
+    display: flex;
+    padding: 10px 0px 10px 200px;
+    gap: 13%;
+    align-items: baseline;
+    font-family: 'Crimson Text', serif;
+}
+.navdetails{
+    display: flex;
+    gap: 5%;
+}
+.pages{
+    color: #0D0E43;
+    text-decoration: none;
+}
+.active{
+    color: white;
+}
+.navbar-search{
+    height: 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.navhead{
+    color: #0D0E43;
+}
+.navhead-h3, .icons{
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 10%;
+}

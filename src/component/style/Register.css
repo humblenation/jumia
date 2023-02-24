@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;600;700;800&display=swap');
+.reg{
+    background: linear-gradient(180deg, #EAE6FF 0%, rgba(234, 230, 255, 0) 100%);
+}
+.reg-cont{
+    background-color: white;
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 500px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 8px;
+}
+.register{
+    font-family: 'Lato';
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.reg-info{
+    font-family: 'Lato';
+    font-weight: 400;
+    color: #9096B2;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 10px;
+}
+.reg-form{
+    display: block;
+}
+.reg-email-adr, .reg-pwd{
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9096B2;
+}
+.reg-email-input, .reg-pwd-input{
+    margin-top: 10px;
+    color: #717585;
+    border: 1px solid #C2C5E1;
+    border-radius: 8px;
+    width: 432px;
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Lato';
+    font-size: 17px;
+    outline: none;
+}
+.reg-btn{
+    width: 432px;
+    height: 47px;
+    background: #FB2E86;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Lato';
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+.reg-btn:hover{
+    background: #f81d7c;
+}
+.reg-new-acct{
+    display: flex;
+    color: #9096B2;
+    gap: 5px;
+}
+.reg-already-acct, .reg-create-acct{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.reg-create-acct{
+    cursor: pointer;
+}
+.reg-create-acct:hover{
+    text-decoration: underline;
+}

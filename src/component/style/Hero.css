@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    display: flex;
+    background: #8568FF;
+    padding-top: 5%;
+    /* gap: 10%; */
+    font-family: 'Crimson Text', serif;
+}
+.images img{
+    width: 30%;
+}
+.ladyhero{
+    position: relative;
+    /* width: 25%; */
+    left: 40%;
+}
+.left{
+    /* position: absolute; */
+    /* width: 25%; */
+    margin-left: 0%;
+}
+.right{
+    /* position: absolute; */
+    /* width: 25%; */
+    margin-left: -10%;
+}
+.hero-detail{
+    width: 465px;
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 7%;
+    /* line-height: 47px; */
+}

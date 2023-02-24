@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+.shop-items{
+    display: flex;
+    font-family: 'Crimson Text';
+    width: 800px;
+    height: 230px;
+    box-shadow: 0px 0px 20px -10px;
+    border-radius: 8px;
+    padding: 15px;
+    margin-left: 490px;
+    margin-top: 50px;
+}
+.shop-img{
+    height: 197px;
+    width: 284px;
+}
+.details{
+    display: block;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.shop-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #111C85;
+    margin-bottom: 10px;
+}
+.shop-price{
+    font-family: 'Work Sans';
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #111C85;
+}
+.shop-ratings{
+    display: flex;
+    margin-bottom: 10px;
+    /* background-color: yellow; */
+}
+.rating1, .rating2, .rating3, .rating4{
+    color: #FFCC2E;
+}
+.shop-desc{
+    font-family: 'Lato';
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9295AA;
+    width: 500px;
+    /* height: 42px; */
+}
+.rating5{
+    color: rgb(90, 89, 89);
+}
+.shop-icons{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 30px;
+}
+.shop-cart{
+    background-color: white;
+    /* background-size: contain; */
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 22px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 6px;
+    border-radius: 50%;
+    color: #535399;
+}
+.shop-heart{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    /* background-size: contain; */
+    padding: 5px;
+    font-size: 22px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 6px;
+    border-radius: 50%;
+    color: #535399;
+}
+.shop-zoom{
+    background-color: white;
+    /* background-size: contain; */
+    padding: 5px;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 6px;
+    border-radius: 50%;
+    color: #535399;
+}

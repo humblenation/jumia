@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans:wght@400;600;700;800&display=swap');
+.foot{
+    height: 389px;
+    width: 100%;
+    background: #0D0E43;
+    display: flex;
+    gap: 10%;
+    padding-left: 15%;
+    padding-top: 7%;
+    margin-top: 7%;
+}
+.h-3 .foot-header{
+    color: white;
+}
+.h-3{
+    font-family: 'Crimson-Text';
+    font-weight: 400;
+    font-size: 25px;
+    color: #8568FF;
+}
+.categori{
+    margin-left: 10%;
+}
+.categori, .my-accounts, .follows{
+    display: block;
+}
+.categori-head, .my-accounts-head, .follows-head{
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+    padding-bottom: 10px;
+}
+.categori-details, .my-accounts-details{
+    display: block;
+}
+.categori-item, .my-accounts-item{
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.follows-details{
+    display: flex;
+    gap: 10px;
+}
+.follows-icon{
+    background-color: white;
+    /* background-size: contain; */
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: #0D0E43;
+}
